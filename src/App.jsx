@@ -7,13 +7,13 @@ import { Clipboard, UserPlus, Send, Users, Gift, ArrowRight, Edit, Check, LogIn,
 // --- Firebase Configuration ---
 // Make sure to replace this with your actual Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyCQtMTWA-OrNj0xpvDBJtukJFQmIzG0qAE",
-  authDomain: "secretly-c816d.firebaseapp.com",
-  projectId: "secretly-c816d",
-  storageBucket: "secretly-c816d.firebasestorage.app",
-  messagingSenderId: "1071478220568",
-  appId: "1:1071478220568:web:c581e1b325ef1deae4206d",
-  measurementId: "G-98BTYF6DRF"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID
 };
 
 // --- Initialize Firebase ---
